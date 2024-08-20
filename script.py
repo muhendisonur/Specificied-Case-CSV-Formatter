@@ -86,8 +86,13 @@ while True:
         #remove used csv import file
         os.remove(csv_file)
 
+    #clearing CLI 
+    os.system('cls')
+
     # prints some information about running (aka live-log)    
     print(f"Program has executed {program_cycle_counter} times.\nExecutation Time: {datetime.datetime.now()}\n")
 
+    program_cycle_counter += 1
+    
     # 5 minutes delay    
-    time.sleep(1000*60*5) 
+    time.sleep(30) 

@@ -8,7 +8,7 @@ TEST_RANDOOM_TEXT, 08/15/2024 03:45, 0
 <hr /> 
 
 ## Input File:
-program accepts any file with csv file extension
+Program accepts any file with csv file extension. It is read csv files automatically.
 ## Output File:
 \* symbol represents the sequential number(1,2,3... etc.) afterthat csv_data*.csv is sample output file. <br />
 Note: program select missing numbers to use on numbering. For example we have following files in the output folder: <br />

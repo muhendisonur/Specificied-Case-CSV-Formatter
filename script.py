@@ -94,5 +94,5 @@ while True:
 
     program_cycle_counter += 1
     
-    # 5 minutes delay    
+    # 30 seconds delay
     time.sleep(30) 
